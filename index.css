@@ -1,0 +1,41 @@
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.greeting {
+    margin: 0 auto;
+    width: 50vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.proj_head {
+    margin-top: 180px;
+}
+
+.try_buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+}
+
+.try_buttons div {
+    padding: 30px;
+}
+
+.try {
+    background-color: lightblue;
+}
+
+.repo {
+    background-color: lightgreen;
+}
+
+.proj {
+    padding: 10px 30px;
+    background-color: beige;
+}
