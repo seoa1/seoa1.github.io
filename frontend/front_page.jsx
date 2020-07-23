@@ -8,7 +8,10 @@ const FrontPage = () => (
                 <br/>
                 Welcome to my website!
             </h2>
-            
+        </div>
+        <div className="ext_links">
+            <img onClick={() => window.open("https://github.com/seoa1")} src="./images/github-logo.png"/>
+            <img onClick={() => window.open("https://www.linkedin.com/in/andrew-seo-16319a1a5/")} src="./images/linkedin.png"/>
         </div>
         <div className="proj_back">
             <div className="projects">
@@ -16,7 +19,7 @@ const FrontPage = () => (
                     Personal Projects
                 </h3>
                 <div className="proj">
-                    <h4>Algorithm Visualizer</h4>
+                    <h4 className="proj_name">Algorithm Visualizer</h4>
                     <p>
                         Watch your favorite graph search and sorting algorithms in action, from Djikstra's and A*, to Merge Sort and Shell Sort!
                         <br />
@@ -26,12 +29,12 @@ const FrontPage = () => (
                 </div>
 
                 <div className="try_buttons">
-                    <div className="try">Try It!</div>
-                    <div className="repo">Repo</div>
+                    <div className="try" onClick={() => window.open("https://seoa1.github.io/AlgoVisualizer/")}>Try It!</div>
+                    <div className="repo" onClick={() => window.open("https://github.com/seoa1/AlgoVisualizer")}>Repo</div>
                 </div>
 
                 <div className="proj">
-                    <h4>Minesweeper Solver</h4>
+                    <h4 className="proj_name">Minesweeper Solver</h4>
                     <p>
                         Play Minesweeper in your browser, or let your browser play it for you! Uses advanced pattern recognition, edge tracking, and probability calculation
                          algorithms to get the highest chance of winning.
@@ -42,8 +45,8 @@ const FrontPage = () => (
                 </div>
 
                 <div className="try_buttons">
-                    <div className="try">Try It!</div>
-                    <div className="repo">Repo</div>
+                    <div className="try" onClick={() => window.open("https://seoa1.github.io/Minesweeper-Solver/")}>Try It!</div>
+                    <div className="repo" onClick={() => window.open("https://github.com/seoa1/Minesweeper-Solver")}>Repo</div>
                 </div>
                 
             </div>
