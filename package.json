@@ -1,11 +1,12 @@
 {
   "name": "my_website",
+  "mode": "production",
   "version": "1.0.0",
   "description": "",
   "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack --mode=development --watch"
+    "webpack": "webpack --mode=production --watch"
   },
   "keywords": [],
   "author": "Andrew Seo",
@@ -15,6 +16,7 @@
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-react": "^7.10.1",
     "babel-loader": "^8.1.0",
+    "lodash": "^4.17.19",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "webpack": "^4.43.0",
