@@ -3,7 +3,7 @@ import Display from './display';
 
 const Root = () => {
     return (
-        <div className>
+        <div>
             <Display />
         </div>
     )

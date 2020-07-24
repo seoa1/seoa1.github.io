@@ -13,12 +13,17 @@ export default class Header extends React.Component {
 
     handle_click_1() {
         this.setState({clicked: 1});
+        this.props.change_page(1);
     }
     handle_click_2() {
         this.setState({clicked: 2});
+        this.props.change_page(2);
+
     }
     handle_click_3() {
         this.setState({clicked: 3});
+        this.props.change_page(3);
+
     }
 
     render() {
