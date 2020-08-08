@@ -48,6 +48,21 @@ const FrontPage = () => (
                     <div className="try" onClick={() => window.open("https://seoa1.github.io/Minesweeper-Solver/")}>Try It!</div>
                     <div className="repo" onClick={() => window.open("https://github.com/seoa1/Minesweeper-Solver")}>Repo</div>
                 </div>
+
+                <div className="proj">
+                    <h4 className="proj_name">Multiplayer Chess</h4>
+                    <p>
+                        Play Chess with your friends, in real time!
+                        <br />
+                        <br/>
+                        Tools Used: JavaScript, React, Express, Node.js, Socket.io
+                    </p>
+                </div>
+
+                <div className="try_buttons">
+                    <div className="try" >Not yet deployed</div>
+                    <div className="repo" onClick={() => window.open("https://github.com/seoa1/GameHub")}>Repo</div>
+                </div>
                 
             </div>
         </div>
