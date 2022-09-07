@@ -1,10 +1,5 @@
 import React from 'react';
-import { Document } from 'react-pdf';
 
-const Resume = () => (
-    <Document file="../images/AndrewSeo_Resume.pdf">
-
-    </Document>
-)
+const Resume = () => <a href="/images/AndrewSeo_Resume.pdf">example</a>;
 
 export default Resume;
