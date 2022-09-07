@@ -1,12 +1,11 @@
-import React from 'react';
 import Display from './display';
 
-const Root = () => {
+function App() {
     return (
-        <div>
+        <div className="App">
             <Display />
         </div>
-    )
+    );
 }
 
-export default Root;
+export default App;
