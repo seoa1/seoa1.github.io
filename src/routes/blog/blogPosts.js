@@ -12,7 +12,7 @@ export const blogs = [
 	{
 		slug: 'what',
 		title: 'what should i write about?',
-		content: `what should i write about? i've never written in a blog before, and i've never been much of a talker.
+		content: `what should i write about? i've never written in a blog before.
 		why did i create a blog anyway? is a blog still a blog if no one reads it? maybe this is just a diary
 		that happens to be on a website. maybe i'll try writing poetry? or a story? i guess i have plenty of time to figure it out.`
 	}

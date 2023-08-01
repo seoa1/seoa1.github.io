@@ -1,10 +1,16 @@
+<script>
+	import './global.css';
+</script>
+
 <nav>
 	<a href="/">home</a>
 	<a href="/blog">blog</a>
 </nav>
 
-<slot/>
+<slot />
 
-<script>
-	import './global.css'
-</script>
+<style>
+	nav {
+		text-align: center;
+	}
+</style>
